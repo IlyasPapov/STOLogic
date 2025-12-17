@@ -1,0 +1,20 @@
+{
+    "name": "ilasp/st-oauto",
+    "autoload": {
+        "psr-4": {
+            "Ilasp\\StOauto\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "IlyasPapov",
+            "email": "ilaspapov@gmail.com"
+        }
+    ],
+    "require": {
+        "klein/klein": "^2.1",
+        "phpmailer/phpmailer": "^6.9",
+        "mpdf/mpdf": "*",
+        "dompdf/dompdf": "^3.1"
+    }
+}
